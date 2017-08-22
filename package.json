@@ -2,9 +2,12 @@
   "private": true,
   "devDependencies": {
     "http-server": "0.9.0",
-    "webpack": "^3.5.5"
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
   },
   "scripts": {
-    "start": "http-server --silent -c-1"
+    "start": "http-server --silent -c-1",
+    "dev": "webpack-dev-server",
+    "build:dev": "webpack"
   }
 }
