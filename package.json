@@ -8,6 +8,7 @@
   "scripts": {
     "start": "http-server --silent -c-1",
     "dev": "webpack-dev-server",
+    "build" : "webpack -p",
     "build:dev": "webpack"
   }
 }
